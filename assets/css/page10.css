@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+.card {
+    display: flex;
+    width: 800px;
+    box-shadow: 0px 0px 5px rgb(202, 202, 202);
+    padding: 10px;
+    gap: 15px;
+    border-radius: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 10px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.card-components {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgb(202, 202, 202);
+    width: 1300px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.card-сontent-head {
+    display: flex;
+    gap: 10px;
+    height: 220px;
+}
+
+.card-сontent-head div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    box-shadow: 0px 0px 5px rgb(202, 202, 202);
+    border-radius: 20px;
+}
+
+.card h3 {
+    color: #999999;
+    font-weight: 100;
+}
+
+.card-сontent-head h1, .card-components-head h3,.card-components h2,.card-components h3, .card-сontent-bottom h2 {
+    margin: 3px;
+    text-align: center;
+}
+
+.card-сontent-head h1 {
+    color: #29b982;
+}
+
+.card-сontent-head h3 {
+    color: #999999;
+}
+
+.card-сontent-bottom {
+    padding: 20px 25px;
+    box-shadow: 0px 0px 5px rgb(202, 202, 202);
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.card-сontent-bottom h2 {
+    font-weight: 100;
+}
+
+.card-сontent-bottom p {
+    color: #999999;
+    text-align: justify;
+    font-weight: 100;
+}
+
+.card-button {
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #29b982;
+    padding: 10px 50px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.animated-button {
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #29b982;
+    padding: 10px 50px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.card-button:hover, .animated-button:hover {
+    background-color: #007bbf;
+    color: white;
+    transform: scale(1.04);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
